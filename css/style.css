@@ -8,12 +8,12 @@
     display: flex;
 }
 
-.center{ /*provvisorio*/
+.center{ 
     justify-content: center;
     align-items: center;
 }
 
-.border{ /*provvisorio*/
+.border{ 
     border: dotted;
 }
 
@@ -24,7 +24,7 @@
     background-color: rgb(173,216,230); /*provvisorio*/
 }
 
-.headertop-contain{ /*provvisorio*/
+.headertop-contain{ /*nome provvisorio*/
     background-color: rgb(218,165,32); /*provvisorio*/
     height: 50%;
     width: 80%;
@@ -45,23 +45,50 @@
 }
 /*fine header*/
 /*inizio main*/
-
 .sezione:nth-of-type(even) {
-    background: rgb(211,211,211);
+    background: rgb(211,211,211); /*provvisorio*/
   }
 
-.sezione{
+.sezione{ 
     height: 600px;
 }
 
 .img{
     height: 80%;
     width: 45%;
-    background-color: rgb(30,144,255);
+    background-color: rgb(30,144,255); /*provvisorio*/
 }
 
 .testo{
     height: 80%;
     width: 30%;
-    background-color: rgb(255,192,203);
+    background-color: rgb(255,192,203); /*provvisorio*/
 }
+
+#section-special{ /*nome provvisorio*/
+    height: 800px;
+}
+
+.testo-immagine{ /*nome provvisorio*/
+    height: 90%;
+    width: 75%;
+    background-color: rgb(34,139,34); /*provvisorio*/
+}
+/*fine main*/
+/* inizio footer*/
+.footer{
+    height: 600px;
+    background-color: rgb(35,39,42);
+}
+
+.column{
+    width: calc(75% / 5);
+    height: 90%;
+    margin-bottom: 45px;
+    background-color: rgb(32,178,170);
+}
+
+#column-special{
+    background-color: rgb(240,128,128);
+}
+/* fine footer*/
