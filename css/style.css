@@ -78,17 +78,37 @@
 /* inizio footer*/
 .footer{
     height: 600px;
-    background-color: rgb(35,39,42);
+    background-color: rgb(35,39,42); /*provvisorio*/
 }
 
 .column{
     width: calc(75% / 5);
     height: 90%;
     margin-bottom: 45px;
-    background-color: rgb(32,178,170);
+    background-color: rgb(32,178,170); /*provvisorio*/
 }
 
-#column-special{
-    background-color: rgb(240,128,128);
+#column-special{ /*nome provvisorio*/
+    background-color: rgb(240,128,128); /*provvisorio*/
 }
+
 /* fine footer*/
+/* inizio footer bottom*/
+
+.footer-bottom{
+    height: 60px;
+    background-color: rgb(35,39,42); /*provvisorio*/
+}
+
+.footerbottom-container{ /*nome provvisorio*/
+    height: 50%;
+    width: 75%;
+    background-color: rgb(127,255,212); /*provvisorio*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerbottom-container img , button{ /*nome provvisorio*/
+    background-color: rgb(255,182,193); /*provvisorio*/
+}
+/*fine footer bottom*/
