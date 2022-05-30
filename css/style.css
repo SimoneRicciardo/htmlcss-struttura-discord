@@ -82,7 +82,7 @@
 }
 
 .column{
-    width: calc(75% / 5);
+    width: calc(75% / 6);
     height: 90%;
     margin-bottom: 45px;
     background-color: rgb(32,178,170); /*provvisorio*/
@@ -90,6 +90,7 @@
 
 #column-special{ /*nome provvisorio*/
     background-color: rgb(240,128,128); /*provvisorio*/
+    width: calc(75% / 6 * 2);
 }
 
 /* fine footer*/
